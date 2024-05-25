@@ -1,0 +1,84 @@
+:root {
+    background: hsla(0, 4%, 43%, 1);
+    background: linear-gradient(225deg, hsla(0, 4%, 43%, 1) 0%, hsla(0, 0%, 1%, 1) 22%);
+    background: -moz-linear-gradient(225deg, hsla(0, 4%, 43%, 1) 0%, hsla(0, 0%, 1%, 1) 22%);
+    background: -webkit-linear-gradient(225deg, hsla(0, 4%, 43%, 1) 0%, hsla(0, 0%, 1%, 1) 22%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#726A6A", endColorstr="#020202", GradientType=1);
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    font-family: "Nunito", sans-serif;
+}
+
+.container {
+    margin-top: 40px;
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+}
+
+#category {
+    font-family: "Nunito", sans-serif;
+    margin: 20px 0;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid aliceblue;
+    text-align: center;
+    font-size: 1rem;
+}
+
+button {
+    font-family: "Nunito", sans-serif;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px auto;
+    cursor: pointer;
+    background-color: gainsboro;
+    color: black;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+    border: none;
+}
+
+button:hover,
+button:active {
+    background-color: rgb(63, 64, 64);
+    color: white;
+}
+
+#quote {
+    font-family: "Nunito", sans-serif;
+    font-size: 1.25rem;
+    color: linen;
+    font-weight: 500;
+    margin: 20px 0;
+}
+
+#author {
+    font-family: "Nunito", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    color: linen;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 600px) {
+    button {
+        margin: 10px 10px;
+    }
+
+    #quote {
+        font-size: 1.5rem;
+    }
+
+    #author {
+        font-size: 1.25rem;
+    }
+}
